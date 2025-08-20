@@ -1,217 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>BrandName — сайт • CRM • реклама</title>
-  <link rel="icon" href="assets/logo.png"/>
-  <link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Best Catering Dubai</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container nav">
-      <div class="brand">
-        <div class="logo"></div>
-        <div>
-          <div class="brand-name" id="brandName">BrandName</div>
-          <div class="brand-tag">сайты • CRM • реклама</div>
-        </div>
-      </div>
-      <nav class="nav-links">
-        <button data-route="home">Главная</button>
-        <button data-route="services">Услуги</button>
-        <button data-route="pricing">Цены</button>
-        <button data-route="about">О нас</button>
-        <button data-route="contact">Контакты</button>
-        <button data-route="leads">Лиды</button>
-      </nav>
-      <button class="nav-mobile" id="navMobile">≡</button>
-    </div>
-    <div class="nav-mobile-menu" id="navMobileMenu">
-      <button data-route="home">Главная</button>
-      <button data-route="services">Услуги</button>
-      <button data-route="pricing">Цены</button>
-      <button data-route="about">О нас</button>
-      <button data-route="contact">Контакты</button>
-      <button data-route="leads">Лиды</button>
-    </div>
+  <header class="top">
+    <img src="assets/logo.png" alt="Best Catering Dubai" class="logo">
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#contact">Контакты</a>
+    </nav>
   </header>
 
-  <main class="container">
-    <!-- HOME -->
-    <section class="route" id="route-home">
-      <div class="hero">
-        <div class="hero-text">
-          <h1>Запускаем продажи: сайт + CRM + реклама</h1>
-          <p>Современный одностраничный сайт в цветах вашего бренда. Быстро, красиво и с фокусом на лидогенерацию.</p>
-          <div class="hero-actions">
-            <button class="btn" data-route="contact">Оставить заявку →</button>
-            <span class="badge">Готово за 7–10 дней</span>
-            <span class="badge badge-outline">Интеграция WhatsApp/Instagram</span>
-          </div>
-        </div>
-        <div class="hero-card">
-          <div class="card">
-            <div class="card-header">🚀 Превью сайта</div>
-            <div class="card-content">
-              <div class="tile-grid">
-                <div class="tile">Главная</div>
-                <div class="tile">Услуги</div>
-                <div class="tile">Контакты</div>
-              </div>
-              <div class="muted">* Цвета подтянем из вашего логотипа</div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <section class="hero">
+    <h1><span class="c-red">Best</span> <span class="c-orange">Catering</span> <span class="c-blue">Dubai</span></h1>
+    <p>Премиальный кейтеринг для мероприятий любого масштаба.</p>
+    <a class="btn" id="cta" href="#">Заказать сейчас</a>
+  </section>
 
-      <section class="spaced">
-        <div class="grid-3">
-          <div class="card">
-            <div class="card-content">
-              <div class="row"><div class="icon">🚀</div><div class="title">Быстрый запуск</div></div>
-              <p class="muted">Первые лиды в течение недели после старта</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="row"><div class="icon">👥</div><div class="title">CRM-процессы</div></div>
-              <p class="muted">Пайплайны, статусы, уведомления в WhatsApp</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <div class="row"><div class="icon">📊</div><div class="title">Аналитика</div></div>
-              <p class="muted">UTM, цели, отчёты по конверсии</p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <section id="menu" class="gallery">
+    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="Салаты">
+    <img src="https://images.unsplash.com/photo-1600891964375-56394b8a2040?auto=format&fit=crop&w=800&q=80" alt="Основные блюда">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Десерты">
+  </section>
 
-      <section class="card gradient-block">
-        <div class="card-content two-col">
-          <div>
-            <h3>Пакеты под разные задачи</h3>
-            <p class="muted">От простого лендинга до сайта с интеграциями и автоворонками.</p>
-            <div class="row gap">
-              <button class="btn" data-route="pricing">Смотреть цены</button>
-              <button class="btn btn-outline">Примеры работ</button>
-            </div>
-          </div>
-          <ul class="list two-col-list">
-            <li>✅ UI/UX дизайн</li>
-            <li>✅ Адаптивная вёрстка</li>
-            <li>✅ CRM интеграция</li>
-            <li>✅ Подключение домена</li>
-            <li>✅ Настройка рекламы</li>
-            <li>✅ Базовая SEO</li>
-          </ul>
-        </div>
-      </section>
-    </section>
+  <section id="about" class="about">
+    <h2>О нас</h2>
+    <p>Мы создаём незабываемые гастрономические впечатления и берём на себя всю организацию питания.</p>
+  </section>
 
-    <!-- SERVICES -->
-    <section class="route hidden" id="route-services">
-      <h2>Услуги</h2>
-      <div class="grid-3">
-        <div class="card"><div class="card-content"><div class="title">Создание сайта</div><p class="muted">Лендинги и многостраничные сайты. Быстро и чисто.</p></div></div>
-        <div class="card"><div class="card-content"><div class="title">Интеграция CRM</div><p class="muted">amoCRM/Битрикс24, пайплайны, webhooks, автоматизация.</p></div></div>
-        <div class="card"><div class="card-content"><div class="title">Таргет и контекст</div><p class="muted">Meta*, Google, TikTok. A/B, LTV, аналитика.</p></div></div>
-      </div>
-    </section>
-
-    <!-- PRICING -->
-    <section class="route hidden" id="route-pricing">
-      <h2>Цены</h2>
-      <div class="grid-3">
-        <div class="card tier"><div class="card-content">
-          <div class="title row j-between"><span>Старт</span></div>
-          <div class="price">AED 2,900</div>
-          <ul class="list"><li>Лендинг 1–3 секции</li><li>Форма заявки</li><li>Настройка домена</li></ul>
-          <button class="btn" data-route="contact">Выбрать</button>
-        </div></div>
-        <div class="card tier tier-hot"><div class="card-content">
-          <div class="title row j-between"><span>Бизнес</span><span class="badge">Топ</span></div>
-          <div class="price">AED 6,900</div>
-          <ul class="list"><li>Многостраничный сайт</li><li>Интеграция CRM</li><li>Аналитика конверсий</li></ul>
-          <button class="btn" data-route="contact">Выбрать</button>
-        </div></div>
-        <div class="card tier"><div class="card-content">
-          <div class="title row j-between"><span>Про</span></div>
-          <div class="price">AED 12,900</div>
-          <ul class="list"><li>Каталог/блог</li><li>Автоворонки</li><li>Реклама и отчёты</li></ul>
-          <button class="btn" data-route="contact">Выбрать</button>
-        </div></div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="route hidden" id="route-about">
-      <h2>О нас</h2>
-      <div class="two-col">
-        <div>
-          <p class="muted">Мы делаем сайты, которые приносят заявки. Фокус на скорости, чистоте интерфейса и измеримой отдаче.</p>
-          <div class="steps">
-            <div class="step"><div class="step-num">1</div><div><div class="title">Бриф</div><div class="muted">Короткое интервью и референсы</div></div></div>
-            <div class="step"><div class="step-num">2</div><div><div class="title">Дизайн</div><div class="muted">Прототип и отрисовка</div></div></div>
-            <div class="step"><div class="step-num">3</div><div><div class="title">Разработка</div><div class="muted">Адаптив + интеграции + тесты</div></div></div>
-            <div class="step"><div class="step-num">4</div><div><div class="title">Запуск</div><div class="muted">Домен, хостинг, аналитика и реклама</div></div></div>
-          </div>
-        </div>
-        <div class="card"><div class="card-content">
-          <div class="title">Технологии</div>
-          <div class="chips"><span class="chip">HTML/CSS/JS</span><span class="chip">CRM API</span><span class="chip">Webhooks</span></div>
-          <div class="muted small">* Интеграции настраиваем под ваш стек (amoCRM/Битрикс24 и др.)</div>
-        </div></div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="route hidden" id="route-contact">
-      <h2>Оставьте заявку</h2>
-      <p class="muted">Ответим в WhatsApp или на почту.</p>
-      <form class="form" id="leadForm">
-        <div class="grid-2">
-          <input id="name" placeholder="Имя*" required/>
-          <input id="phone" placeholder="Телефон / WhatsApp"/>
-        </div>
-        <input id="email" placeholder="Email"/>
-        <textarea id="message" placeholder="Сообщение"></textarea>
-        <div class="grid-3">
-          <button type="button" class="pill selected" data-source="Сайт">Сайт</button>
-          <button type="button" class="pill" data-source="Instagram">Instagram</button>
-          <button type="button" class="pill" data-source="WhatsApp">WhatsApp</button>
-          <button type="button" class="pill" data-source="Реклама">Реклама</button>
-          <button type="button" class="pill" data-source="Рекомендация">Рекомендация</button>
-        </div>
-        <div class="row gap">
-          <button class="btn" type="submit">🚀 Отправить заявку</button>
-          <a class="muted" id="phoneLink" target="_blank">☎️ +971 50 000 0000</a>
-          <span class="muted">•</span>
-          <a class="muted" id="emailLink">✉️ hello@brandname.site</a>
-        </div>
-        <div id="error" class="error"></div>
-      </form>
-      <div id="toast" class="toast hidden">Заявка отправлена в «Лиды»</div>
-    </section>
-
-    <!-- LEADS -->
-    <section class="route hidden" id="route-leads">
-      <h2>Лиды</h2>
-      <p class="muted small">Локальная демо-CRM (данные сохраняются в браузере)</p>
-      <div id="leadsList" class="leads"></div>
-    </section>
-  </main>
+  <section id="contact" class="contact">
+    <h2>Контакты</h2>
+    <p>Телефон: <a id="phoneLink" target="_blank"></a></p>
+    <p>Email: <a id="emailLink"></a></p>
+  </section>
 
   <footer class="footer">
-    <div class="container row j-between">
-      <div>© <span id="year"></span> <span id="brandName2">BrandName</span>. Все права защищены.</div>
-      <div class="row gap">
-        <a href="#" class="muted">Политика конфиденциальности</a>
-        <span>•</span>
-        <a href="#" class="muted">Договор оферты</a>
-      </div>
-    </div>
+    © <span id="year"></span> Best Catering Dubai
   </footer>
 
   <script src="script.js"></script>
